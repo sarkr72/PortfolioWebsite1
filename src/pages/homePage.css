@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+}
+
+.homeBlock{
+    box-shadow:0px 10px 5px red;
+}
+.btns{
+    /* position: fixed; */
+    padding-left:5px;
+    width: 620px;
+    height: 56px;
+    margin-left: 23%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: rgb(236, 82, 198); */
+    
+}
+
+.btn{
+    background-color: rgb(28, 245, 8);
+    flex-basis: 21%;
+    font: bold;
+}
+
+h2{
+    margin-left:-40%;
+}
+.btn:hover{
+    opacity: 1.1;
+    scale: 1.1;
+}
+.containers{
+    width: 100%;
+    height: 500vh;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding: 10px 10%; */
+    /* padding-left: 10%; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#firstL{
+    margin-left: 0%;
+}
+.logo {
+    width: 140px;
+    height: fit-content;
+    margin-left: 10%;
+}
+
+/* ul{
+    width: 550px;
+    height: 37px;
+    border-radius: 2ch;
+    box-shadow: 10px 10px 10px red;
+} */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 50%;
+    justify-content: center;
+    /* background-color:#ff004f; */
+}
+.copyright{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ababab;
+}

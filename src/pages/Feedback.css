@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* label{
+    background-color: green;
+} */
+#dropD{
+margin-left: 30%;
+}
+
+#feed{
+font:bold;
+font-size: 30px;
+margin-left: 40%;
+box-shadow:0px 10px 5px red;
+width:fit-content
+}
+
+#submit{
+margin-left: 47%;
+/* margin-top: ; */
+}
+
+#wholeFeedback{
+    box-shadow:0px -10px 5px red;
+}
+.feedbackcontainer {
+    width: 100%;
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+    /* background:rgb(223, 15, 15); */
+    padding: 10px 10%;
+}
+
+.text2 {
+    background-color: green;
+    width: 50px;
+    height: 20px;
+    margin-left: 35%;
+}
+
+textarea {
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 200px;
+    margin-left: 35%;
+}
+
+.feedbackBox {
+    padding: 20px;
+    max-width: 100%;
+    height: 400px;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+.username{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.email{
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: center;
+    width: 100%;
+
+}
+
+.buttons {
+    margin-left: 45%;
+    height: 20px;
+}
+
+
+#inputs{
+    /* background-color: aqua; */
+    max-width: 700px;
+    height: fit-content;
+
+    justify-content: left;
+    margin-left: 20%;
+}
+
+.username{
+    margin-left: 5.7%;
+} 
+.email{
+    margin-left: 10.4%;
+} 
+.dropdown{
+margin-left: 10%;
+margin-bottom: 10px;
+}
+/* .userInput{
+    margin-left: 0%;
+} */

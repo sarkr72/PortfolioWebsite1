@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+}
+
+#aboutPage{
+    box-shadow:0px 10px 5px red, 0px -10px 5px red;
+}
+#aboutBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 110vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 5%;
+   
+}
+
+.logo{
+    left: 0;
+    top: 0;
+}
+#header{
+    width: 100%;
+    height: 65px;
+    background-color: #d3d306;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    margin-bottom: 50px;
+}
+.sub-title{
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    background-color: #ff0000;
+    width: 200px;
+    height: 40px;
+    /* animation-name: aboutMeAnimation; */
+    animation: aboutMeAnimation 10s infinite;
+}
+@keyframes aboutMeAnimation{
+    50%  {background-color: blue;}
+    25%  {background-color: yellow;}
+    75% {background-color: green;}
+    100%   {background-color: red;}
+}
+.aboutPagecontainer{
+    flex-basis: 50%;
+}
+.yellowBox{
+    flex-basis: 40%;
+}
+.aboutPagecontainer{
+    width: 450px;
+    height: 550px;
+    border-radius: 2ch;
+    padding: 10px;
+    box-shadow: 8px 15px 10px red;
+    font-size: 20px;
+    /* background-color: #ff0000; */
+}
+
+.para{
+    margin-top: 20px;
+    width: 75%;
+    line-height: inherit;
+    position: relative;
+    border-radius: 20px;
+    /* animation-name: paraAnimation; */
+    animation: paraAnimation 10s infinite;
+
+}
+
+@keyframes paraAnimation{
+    from {top: 0px;}
+  to {top: 100px;}
+    0%  {background-color: blue;}
+    30%  {background-color: black;}
+    75% {background-color: green;}
+    100%   {background-color: red;}
+}
+
+.para:hover{
+    animation-play-state: paused;
+}
+.yellowBox{
+    border-style: solid;
+    border-width: 7px;
+    width: 450px;
+    height: 550px;
+    border-color: #d3d306;
+}
+
+.image{
+    float:right;
+    position: relative;
+    left: 40px;
+    top: 100px;
+    width:115px;
+    height: 115px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#ff004f; */
+}
+.copyright{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ababab;
+}
